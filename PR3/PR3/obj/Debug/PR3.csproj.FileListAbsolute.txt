@@ -1,0 +1,7 @@
+E:\BTECH CSE\sem 5\.NET\PR3\PR3\bin\Debug\PR3.exe.config
+E:\BTECH CSE\sem 5\.NET\PR3\PR3\bin\Debug\PR3.exe
+E:\BTECH CSE\sem 5\.NET\PR3\PR3\bin\Debug\PR3.pdb
+E:\BTECH CSE\sem 5\.NET\PR3\PR3\obj\Debug\PR3.csproj.AssemblyReference.cache
+E:\BTECH CSE\sem 5\.NET\PR3\PR3\obj\Debug\PR3.csproj.CoreCompileInputs.cache
+E:\BTECH CSE\sem 5\.NET\PR3\PR3\obj\Debug\PR3.exe
+E:\BTECH CSE\sem 5\.NET\PR3\PR3\obj\Debug\PR3.pdb
