@@ -1,0 +1,49 @@
+﻿@model Practical8.Models.Product
+
+@{
+    ViewBag.Title = "Add Product";
+}
+
+<div class="form-card">
+
+    <h2 class="page-title">Add New Product</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <label>Product Name</label>
+            @Html.TextBoxFor(m => m.ProductName,
+                new { @class = "form-input", placeholder = "Enter product name" })
+        </div>
+
+        <div class="form-group">
+            <label>Quantity</label>
+            @Html.TextBoxFor(m => m.Quantity,
+                new { @class = "form-input", placeholder = "Enter quantity" })
+        </div>
+
+        <div class="form-group">
+            <label>Price</label>
+            @Html.TextBoxFor(m => m.Price,
+                new { @class = "form-input", placeholder = "Enter price" })
+        </div>
+
+        <div class="form-group">
+            <label>Category</label>
+            @Html.TextBoxFor(m => m.Category,
+                new { @class = "form-input", placeholder = "Enter category" })
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn-custom btn-save">
+                Save Product
+            </button>
+
+            @Html.ActionLink("Back to Products", "Index",
+                null, new { @class = "back-link" })
+        </div>
+    }
+
+</div>
